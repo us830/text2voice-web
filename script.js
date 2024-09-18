@@ -1,6 +1,6 @@
 const apiConfig = {
     "voice-api": {
-        url: "https://text2sppch.fme.us.kg/tts",
+        url: "https://xxx.xxx.xxx/tts",
         speakers: {
             "zh-CN-XiaoxiaoNeural": "晓晓",
             "zh-CN-YunxiNeural": "云希",
@@ -118,7 +118,7 @@ function generateVoice(isPreview) {
         url: url,
         method: 'GET',
         headers: {
-            'x-api-key': 'skyxin'  // 添加 API 密钥
+            'x-api-key': 'xxx'  // 添加 API 密钥
         },
         xhrFields: {
             responseType: 'blob' // 确保返回的是一个Blob对象
